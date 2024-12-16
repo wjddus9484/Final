@@ -47,10 +47,50 @@ a{
     font-weight: 400;
     font-family: "Noto Sans KR", sans-serif;
 }
-#selection1 > h2{padding-top: 195px;}
-#selection2 > h2{padding-top: 195px;}
-#selection3 > h2{padding-top: 195px;}
-#selection4 > h2{padding-top: 195px;}
+#selection1 > h2{padding-top: 195px;
+    padding-top: 114px;
+    text-decoration: none; 
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    line-height: 15px;
+    letter-spacing: -0.5px;
+    font-weight: 700;
+    font-family: "Noto Sans KR", sans-serif;}
+#selection2 > h2{
+    padding-top: 195px;
+    padding-top: 114px;
+    text-decoration: none; 
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    line-height: 15px;
+    letter-spacing: -0.5px;
+    font-weight: 700;
+    font-family: "Noto Sans KR", sans-serif;}
+#selection3 > h2{
+    padding-top: 195px;
+    padding-top: 114px;
+    text-decoration: none; 
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    line-height: 15px;
+    letter-spacing: -0.5px;
+    font-weight: 700;
+    font-family: "Noto Sans KR", sans-serif;}
+#selection4 > h2{
+    padding-top: 195px;
+    padding-top: 114px;
+    text-decoration: none; 
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    line-height: 15px;
+    letter-spacing: -0.5px;
+    font-weight: 700;
+    font-family: "Noto Sans KR", sans-serif;
+}
 #selection2 > li{
     padding-top: 114px;
     text-decoration: none; 
