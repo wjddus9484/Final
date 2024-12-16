@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VALORANT</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav">
+        <ul>
+            <li><a href="#selection1">요원</a></li>
+            <li><a href="#selection5">컬리전</a></li>
+            <li><a href="#selection6">최근소식</a></li>
+        </ul>
+    </nav>
+    <div id="contents">
+        <div id="selection1">
+            <h2>타격대</h2>
+            <img src="img/cimg/ta.png" alt="타격대">
+            <li>타격대는 자급자족이 가능하며 팀에서 공격을 담당합니다. <br>
+            스킬과 실력을 통해 먼저 교전을 시작하고 적을 처치합니다.</li>
+        </div>
+        <div id="selection2">
+            <h2>척후대</h2>
+            <img src="img/cimg/ch.png" alt="척후대">
+            <li>
+                척후대는 팀이 전투 지역에 침입할 수 있도록<br>
+                다각도로 진입로를 확보하고 적 팀에 틈을 만들어냅니다.
+            </li>
+        </div>
+        <div id="selection3">
+            <h2>감시자</h2>
+            <img src="img/cimg/g.png" alt="감시자">
+            <li>
+                감시자들은 공격팀이나 수비팀에 상관없이 <br>
+                지역을 점유하고 팀 엄호를 담당하는 수비 전문가입니다.
+            </li>
+        </div>
+        <div id="selection4">
+            <h2>전략가</h2>
+            <img src="img/cimg/j.png" alt="전략가">
+            <li>
+                전략가들은 위험 지역을 분석하여 <br>
+                팀을 승리로 이끄는 데 탁월합니다.
+            </li>
+        </div>
+        <div id="selection5">
+            <img src="img/k/e.jpg" alt="액트_09">
+            <a href="https://www.youtube.com/watch?v=JjlpuWA0SHc"><h1>한번만 더// 에피소드 9: 액트 3
+            </h1></a>
+            <li>
+                <p>게임을 한 번만 더 플레이해 <br>
+                컬리전의 마지막 액트를 기념해 보세요!</p><p>컬리전의 마지막 액트에서 신규 팀 데스매치 맵, 컬렉션을 <br>
+                업데이트해 줄 신규 스킨 시리즈, 요원 밸런스 변경 사항, <br>
+                맵 업데이트, 신규 배틀패스, 게임 체인저스 챔피언십 등 <br>
+                다양한 콘텐츠를 만나보세요.</p>이번 액트에서는 발로란트에서 가장 핵심이 되는 부분을 <br>
+                기념합니다. 바로 플레이어 여러분입니다. 5인 파티부터 <br>
+                듀오까지, 크리에이터부터 콘솔 플레이어 여러분까지, <br>
+                발로란트를 멋진 게임으로 만드는 건 바로 플레이어 <br>
+                여러분입니다. 에피소드 9: 액트 lll가 지금 시작됩니다!
+            </li>
+        </div>
+        <div id="selection6">
+            <img src="img/nimg/a.webp" alt="아케인">
+            <li>
+                게임 업데이트
+                ｜2024. 11. 5.
+                <p>발로란트 x 아케인: 시즌 2 아케인 컬렉터 세트가 <br>
+                찾아왔습니다
+                한정판 세트에 대해 알아야 할 모든 것<br>
+                을 정리했습니다.</p>
+
+            </li>
+            <img src="img/nimg/e.png" alt="에피소드9">
+            <li>
+                게임 업데이트｜2024. 11. 19.
+                <p>발로란트 9.10 패치 노트<br>
+                감시자, 전략가 및 피닉스 업데이트,<br> 
+                보호막 회복 추가, 게임플레이 체계 변경 등<br> 
+                다양한 내용을 준비했습니다.</p>
+
+            </li>
+            <img src="img/nimg/p.png" alt="패치노트">
+            <li>
+                게임 업데이트｜2024. 10. 22.
+                <p>한 번만 더 // 에피소드 9: 액트 III <br>
+                컬리전의 마지막 액트에서 신규 스킨 시리즈, <br>
+                연말 패치 등 다양한 콘텐츠를 만나 보세요.</p>
+            </li>
+        </div>
+    </div>
+    <script>
+        const nav = $("#nav ul li")
+        const cont = $("#contents > div")
+        nav.click(function(e){
+            e.preventDefault();
+            let target = $(this);
+            let index = target.index();
+
+            let selection = cont.eq(index);
+            let offset = selection.offset(top);
+            console.log(offset)
+            $("html,body").animate({scollTop:offset},600)
+        });
+    </script>
+</body>
+</html>
+
+ 

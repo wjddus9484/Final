@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+.top{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    /* background-color: #000; */
+    z-index: 10;
+    background: radial-gradient(
+        rgba(110, 110, 110, 0.3),
+        rgba(0, 0, 0, 0.8));}
+video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+li{list-style: none;}
+a{
+    text-decoration: none; 
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    font-family: "Noto Sans KR", sans-serif;
+}
+#selection1 > img{width: 330px; height: 320px; padding-top: 65px;}
+#selection1 > li{
+    padding-top: 114px;
+    text-decoration: none; 
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    font-family: "Noto Sans KR", sans-serif;
+}
+#selection1 > h2{padding-top: 195px;}
+#selection2 > h2{padding-top: 195px;}
+#selection3 > h2{padding-top: 195px;}
+#selection4 > h2{padding-top: 195px;}
+#selection2 > li{
+    padding-top: 114px;
+    text-decoration: none; 
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    font-family: "Noto Sans KR", sans-serif;
+}
+#selection3 > li{
+    padding-top: 114px;
+    text-decoration: none; 
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    font-family: "Noto Sans KR", sans-serif;
+}
+#selection4 > li{
+    padding-top: 114px;
+    text-decoration: none; 
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    font-family: "Noto Sans KR", sans-serif;
+}
+#selection2 > img{width: 244px; height: 320px;  padding-top: 65px;}
+#selection3 > img{width: 244px; height: 320px;  padding-top: 65px;}
+#selection4 > img{width: 244px; height: 320px;  padding-top: 65px;}
+#selection5 > img{width: 250px; height: 332px; padding: 87px;}
+#selection5 > h1{
+    padding: 41px;
+    text-decoration: none; 
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    line-height: 20px;
+    letter-spacing: -0.5px;
+    font-weight: 700;
+    font-family: "Noto Sans KR", sans-serif;
+}
+#selection5 > li{
+    padding: 66px;
+    text-decoration: none; 
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    font-family: "Noto Sans KR", sans-serif;
+}
+#selection6 > img{width: 284px; height: 160px; padding-top: 8px;}
+#selection6 > li{
+    padding-left: 75px;
+    padding-top: 12px;
+    text-decoration: none; 
+    color: white;
+    text-align: left;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    font-family: "Noto Sans KR", sans-serif;
+}
+.nav{position: fixed; background-color: black; width: 100%;}
+.nav ul{float: left; padding-left: 15px;}
+.nav ul li{display: inline;}
+.nav ul li a{display: inline-block; padding: 20px 50px;}
+
+#contents{text-align: center;}
+#contents > div{
+    width: 100%;
+    height: 930px;}
+#selection1, #selection2, #selection3, #selection4 li{
+    text-decoration: none; 
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    font-family: "Noto Sans KR", sans-serif;
+}
+#selection1{background: radial-gradient(#A11F2A 0%, #F15A4C 100%)}
+#selection2{background: radial-gradient(#1A8C33 0%, #A4DD6B 100%)}
+#selection3{background: radial-gradient(#2561BA 0%, #6BD5DD 100%)}
+#selection4{background: radial-gradient(#9025BA 0%, #DD6BDB 100%)}
+#selection5{background: radial-gradient(#EE1A1D 0%, #231414 100%)}
+#selection6{background: radial-gradient(#EE1A1D 0%, #231414 100%)}
+
+.wrap{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 20;
+}
+.logo{height: 222px;text-align: center;padding-top: 170px;}
+.subcopy{
+    height: 119px;
+    padding-top: 110px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    font-family: "Noto Sans KR", sans-serif;
+}
+.bt00{height: 43px;padding-top: 100px;text-align: center;}
